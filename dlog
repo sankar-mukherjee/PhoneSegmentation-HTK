@@ -1,0 +1,41 @@
+WARNING: no script file ./train/main_dict.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+   main_dict       302        302        302        302
+        dict       302        302        302        302
+
+302 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. b     :    35
+  2. a     :   153
+  3. i     :    88
+  4. sp    :   300
+  5. d     :    40
+  6. e     :   194
+  7. f     :    16
+  8. l     :    31
+  9. A     :    45
+ 10. k     :    46
+ 11. o     :    77
+ 12. R     :   116
+ 13. s     :    96
+ 14. t     :    68
+ 15.       :    13
+ 16. S     :    29
+ 17. u     :    10
+ 18. y     :     4
+ 19. p     :    69
+ 20. E     :     2
+ 21. m     :    56
+ 22. v     :    12
+ 23. g     :    16
+ 24. O     :     2
+ 25. Z     :     2
+ 26. n     :     6
+ 27. sil   :     2
+
+Dictionary dict created

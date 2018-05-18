@@ -1,0 +1,114 @@
+RO 100 stats
+
+TR 0
+
+QS  "R_NonBoundary"           { *+* }
+QS  "R_Silence"                      { *+sil }
+QS  "R_Stop"              { *+p,*+b,*+t,*+d,*+k,*+g }
+QS  "R_Fricative"      { *+f,*+v,*+s,*+z,*+S,*+Z }
+QS  "R_Nasal"                        { *+m,*+n,*+N,*+5,*+1,*+@,*+\247 }
+QS  "R_Vowel"                       { *+a,*+i,*+y,*+u,*+o,*+O,*+e,*+E,*+\302,*+2,*+9,*+5,*+1,*+@,*+\247,*+3 }
+QS  "R_Liquid"                       { *+l}
+QS  "R_SemiVowel"                       { *+j,*+8,*+w }
+QS  "R_OpenVowel"                       { *+O,*+E,*+9 }
+QS  "R_ClosedVowel"                       { *+o,*+e,*+2 }
+QS  "R_NasalVowel"                       { *+5,*+1,*+@,*+\247 }
+QS  "R_DeletedSchwa"                       { *+\302 }
+QS  "R_NonDeletedSchwa"                       { *+3 }
+QS  "R_Borrowed"                       { *+x,*+G }
+QS  "R_Unvoiced-Cons"        { *+p,*+t,*+k }
+QS  "R_Voiced-Cons" 	     { *+b,*+d,*+g }
+QS  "R_a"                 { *+a }
+QS  "R_i"                 { *+i }
+QS  "R_y"                 { *+y }
+QS  "R_u"                 { *+u }
+QS  "R_o"                { *+o }
+QS  "R_O"                 { *+O }
+QS  "R_e"                 { *+e }
+QS  "R_E"                   { *+E }
+QS  "R_\302"                 { *+\302 }
+QS  "R_2"                   { *+2 }
+QS  "R_9"                 { *+9 }
+QS  "R_5"                 { *+5 }
+QS  "R_1"                 { *+1 }
+QS  "R_@"                 { *+@ }
+QS  "R_\247"                  { *+\247 }
+QS  "R_3"                 { *+3 }
+QS  "R_j"                  { *+j }
+QS  "R_8"                  { *+8 }
+QS  "R_w"                    { *+w }
+QS  "R_p"                   { *+p }
+QS  "R_b"                 { *+b }
+QS  "R_t"                  { *+t }
+QS  "R_d"                  { *+d }
+QS  "R_k"                  { *+k }
+QS  "R_g"                   { *+g }
+QS  "R_f"                 { *+f }
+QS  "R_v"                    { *+v }
+QS  "R_s"                  { *+s }
+QS  "R_z"                   { *+z }
+QS  "R_S"                 { *+S }
+QS  "R_Z"                { *+Z }
+QS  "R_m"                 { *+m }
+QS  "R_n"                   { *+n }
+QS  "R_N"                 { *+N }
+QS  "R_l"                    { *+l }
+QS  "R_R"                    { *+R }
+QS  "R_x"                  { *+x }
+QS  "R_G"                    { *+G }
+QS  "L_NonBoundary"           { *-* }
+QS  "L_Silence"                      { sil-* }
+QS  "L_Stop"              { p-*, b-*, t-*, d-*, k-*, g-* }
+QS  "L_Fricative"      {  f-*, v-*, s-*, z-*, S-*, Z-* }
+QS  "L_Nasal"                        {  m-*, n-*, N-*, 5-*, 1-*, @-*, \247-* }
+QS  "L_Vowel"                       {  a-*, i-*, y-*, u-*, o-*, O-*, e-*, E-*, \302-*, 2-*, 9-*, 5-*, 1-*, @-*, \247-*, 3-* }
+QS  "L_Liquid"                       { l-*}
+QS  "L_SemiVowel"                       {  j-*, 8-*, w-* }
+QS  "L_OpenVowel"                       {  O-*, E-*, 9-* }
+QS  "L_ClosedVowel"                       {  o-*, e-*, 2-* }
+QS  "L_NasalVowel"                       {  5-*, 1-*, @-*, \247-* }
+QS  "L_DeletedSchwa"                       {  \302-* }
+QS  "L_NonDeletedSchwa"                       {  3-* }
+QS  "L_Borrowed"                       {  x-*, G-* }
+QS  "L_Unvoiced-Cons"        {  p-*, t-*, k-* }
+QS  "L_Voiced-Cons" 	     {  b-*, d-*, g-* }
+QS  "L_a"                 { a-* }
+QS  "L_i"                 { i-* }
+QS  "L_y"                 { y-* }
+QS  "L_u"                 { u-* }
+QS  "L_o"                { o-* }
+QS  "L_O"                 { O-* }
+QS  "L_e"                 { e-* }
+QS  "L_E"                   { E-* }
+QS  "L_\302"                 { \302-* }
+QS  "L_2"                   { 2-* }
+QS  "L_9"                 { 9-* }
+QS  "L_5"                 { 5-* }
+QS  "L_1"                 { 1-* }
+QS  "L_@"                 { @-* }
+QS  "L_\247"                  { \247-* }
+QS  "L_3"                 { 3-* }
+QS  "L_j"                  { j-* }
+QS  "L_8"                  { 8-* }
+QS  "L_w"                    { w-* }
+QS  "L_p"                   { p-* }
+QS  "L_b"                 { b-* }
+QS  "L_t"                  { t-* }
+QS  "L_d"                  { d-* }
+QS  "L_k"                  { k-* }
+QS  "L_g"                   { g-* }
+QS  "L_f"                 { f-* }
+QS  "L_v"                    { v-* }
+QS  "L_s"                  { s-* }
+QS  "L_z"                   { z-* }
+QS  "L_S"                 { S-* }
+QS  "L_Z"                { Z-* }
+QS  "L_m"                 { m-* }
+QS  "L_n"                   { n-* }
+QS  "L_N"                 { N-* }
+QS  "L_l"                    { l-* }
+QS  "L_R"                    { R-* }
+QS  "L_x"                  { x-* }
+QS  "L_G"                    { G-* }
+ 
+TR 2
